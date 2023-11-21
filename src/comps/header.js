@@ -37,7 +37,7 @@ const Header = ({setvalue}) => {
       <div className="userPicture">
        
       </div>
-      <p style={{fontSize:"medium"}}>Admin</p>
+      <p style={{fontSize:"medium"}}>ULB User 1</p>
 
       {showDropdown && (
         <div className="user_dropdown">

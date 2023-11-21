@@ -127,9 +127,16 @@ const BankAccounts = () => {
            <div style={{display:"flex",justifyContent:"space-evenly",flexDirection:"column"}}> 
            <p >Upload Account Passbook 1st Page</p>
            </div>
-              <div className="Btn" style={{marginLeft:"20px"}}>
+           <div style={{display:"flex",flexDirection:"row",gap:"10px"}}>
+           <div className="Btn" style={{marginLeft:"20px"}}>
                 Select File
               </div>
+              <div style={{justifyContent:"space-evenly",display:"flex",flexDirection:"column"}}>
+              <p className="text">(Max. 2 MB is allowed)</p>
+              </div>
+              
+           </div>
+             
 
             </div>
            

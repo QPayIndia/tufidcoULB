@@ -101,14 +101,31 @@ const PanCardDetails = () => {
                         </td>
                   </tr>
                 </table>
+                <table>
+                  <tr>
+                    <td style={{width:"30%"}}>
+                    <p >
+                  Upload Scan Copy
+                    </p>
+                    </td>
+                    <td style={{width:"100%"}}>
+                              <div style={{display:"flex",flexDirection:"row",gap:"10px"}}>
+                    <div className="Btn" style={{marginLeft:"20px"}}>
+                          Select File
+                        </div>
+                        <div style={{justifyContent:"space-evenly",display:"flex",flexDirection:"column"}}>
+                        <p className="text">(Max. 2 MB is allowed)</p>
+                        </div>
+                        </div>
+                        </td>
+                  </tr>
+                </table>
 
 <div style={{display:"flex",flexDirection:"row",marginTop:"10px",verticalAlign:"center"}}>
-           <div style={{display:"flex",justifyContent:"space-evenly",flexDirection:"column"}}> 
-           <p >Upload Scan Copy</p>
+          
+           
+              
            </div>
-              <div className="Btn" style={{marginLeft:"20px"}}>
-                Select File
-              </div>
 
             </div>
            
@@ -130,7 +147,7 @@ const PanCardDetails = () => {
          
       
         </div>
-      </div>
+      
     </>
   );
 };
