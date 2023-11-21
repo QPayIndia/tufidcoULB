@@ -10,43 +10,43 @@ const Sidebar = () => {
   const data = [
     {
       name: "KYC Update",
-      icon: "speed",
+      icon: "upload_file",
       link:"/"
       
     },
     {
       name: "Bank Accounts",
-      icon: "speed",
+      icon: "account_balance",
       link:"/bankaccounts"
       
     }, 
     {
       name: "PAN Details",
-      icon: "speed",
+      icon: "credit_score",
       link:"/pancarddetails"
       
     },
     {
       name: "Project Master Update",
-      icon: "speed",
+      icon: "construction",
       link:"/projectupdate"
       
     },
     {
       name: "Financial Progress",
-      icon: "speed",
+      icon: "payments",
       link:"/financialprogress"
       
     },
     {
       name: "Physical Progress",
-      icon: "speed",
+      icon: "clock_loader_20",
       link:"/projectupdation"
       
     },
     {
       name: "Reports",
-      icon: "speed",
+      icon: "monitoring",
       link:"/report"
       
     }
