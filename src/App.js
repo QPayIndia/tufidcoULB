@@ -112,7 +112,7 @@ import FinancialProgress from "./comps/Masters/FinancialProgress";
       <Route path="/agencytypemaster" element={<ULBTypeMaster />} />
       <Route path="/ulbmaster" element={<ULBMaster />} />
       <Route path="/ulbschemebankmaster" element={<ULBSchemeBankMaster />} />
-      <Route path="/ulbkyc" element={<ULBKkyc />} />
+      <Route path="/" element={<ULBKkyc />} />
       <Route path="/bankaccounts" element={<BankAccounts />} />
       <Route path="/pancarddetails" element={<PanCardDetails />} />
 

@@ -92,13 +92,13 @@ a{
 }
 .sidebar {
     width:280px;
-    height: calc(100vh - 80px);;
     background-color: white;
     color: black;
- padding:10px 0px;
+    padding:10px 0px;
     display: flex;
     flex-direction: column;
     gap: 5px;
+    height: max-content;
     position: sticky;
     top: 0;
     left: 0;

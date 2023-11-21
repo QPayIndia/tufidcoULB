@@ -6,193 +6,49 @@ import { Link } from "react-router-dom";
 const MobileNav = () => {
   const data = [
     {
-      name: "Dashboard",
+      name: "KYC Update",
       icon: "speed",
       link:"/"
       
     },
     {
-      name: "Masters",
-      icon: "settings",
-      subNavs: [
-        {name: "Scheme Master", link: "/schememaster"},
-        {name: "Sector Master", link: "/sectormaster"},
-        {name: "ULB Type Master", link: "/agencytypemaster"},
-        {name: "ULB Master", link: "/ulbmaster"},
-        {name: "ULB Scheme Bank Master", link: "/ulbschemebankmaster"},
-        {name: "ULB KYC", link: "/ulbkyc"},
-        {name: "Bank Accounts", link: "/bankaccounts"},
-        {name: "PAN Card Details", link: "/pancarddetails"},
-
-        {name: "Project Master", link: "/projectmaster"},
-        {name: "Fund Release", link: "/fundrelease"},
-        //{name: "Release History", link: "/releasehistory"},
-        {name: "Financial Progress", link: "/financialprogress"},
-        {name: "Project Update", link: "/projectupdate"}
-       
-      ],
-    },
-    {
-      name: "Setup",
-      icon: "settings",
-      subNavs: [
-        {name: "Master Data", link: "/masterdata"},
-        {name: "SOR", link: "/sor"},
-        {name: "Non SOR", link: "/nonsor"},
-        {name: "Vendor master", link: "/vendormaster"}
-        
-       
-      ],
-    },
-    {
-      name: "Implementing agency details",
-      icon: "badge",
-      subNavs: [
-        {name: "Municipal Corporation", link: "/municipalcorp"},
-      {name: "Municipality", link: "/municipality"},
-        {name: "Town Panchayat", link: "/townpanchayat"},
-        {name: "Water Board", link: "/waterboard"}
-       
-      ],
-    },
-    {
-      name: "Finance",
-      icon: "finance",
-      subNavs: [
-        {name: "Scheme Opening Balance", link: "/schemeopeningbalance"},
-
-        {name: "Scheme Money Received", link: "/schememoneyreceived"},
-
-        {name: "Scheme Financial Position", link: "/schemefinancialposition"},
-
-        {name: "Project Opening Balance", link: "/projectopeningbalance"},
-
-        {name: "Project Fund Allocation", link: "/projectfundallocation"},
-
-        {name: "Project Financial Position", link: "/projectfinancialposition"},
-        {name: "Allocation and Expenditure", link: "/allocationandexpenditure"},
-        {name: "Financial Progress", link: "/financeprogress"},
-        {name: "Financial Progress List", link: "/financialprogresslist"},
-        {name: "Budget Provision", link: "/budgetprovision"},
-        {name: "Finance Report", link: "/financereport"}
-        
-       
-      ],
-    },
-    {
-      name: "Post Sanction",
-      icon: "inventory",
-      subNavs: [
-        {name: "Pre Sanction", link: "/presanction"},
-        {name: "Project Sanction", link: "/projectsanction"},
+      name: "Bank Accounts",
+      icon: "speed",
+      link:"/bankaccounts"
       
-       
-      ],
-    },
+    }, 
     {
-      name: "Administration Sanction",
-      icon: "upload_file",
-      subNavs: [
-        {name: "File Upload", link: "/fileupload"},
-        {name: "File List", link: "/filelist"}
-      ]
-    },
-    {
-      name: "Contractor",
-      icon: "engineering",
-      link:"/contractor"
+      name: "PAN Details",
+      icon: "speed",
+      link:"/pancarddetails"
       
     },
     {
-      name: "Architect",
-      icon: "architecture",
-      link:"/architect"
+      name: "Project Master Update",
+      icon: "speed",
+      link:"/projectupdate"
       
     },
     {
-      name: "Supplier",
-      icon: "inventory",
-      link:"/supplier"
+      name: "Financial Progress",
+      icon: "speed",
+      link:"/financialprogress"
       
     },
-    {
-      name: "Project",
-      icon: "workspaces",
-      link:"/projects"
-      
-    },
-    {
-      name: "Gantt Chart",
-      icon: "analytics",
-      link:"/ganttchart"
-      
-    },
-    
     {
       name: "Physical Progress",
-      icon: "clock_loader_10",
-      subNavs: [
-        {name: "Physical Progress Updation", link: "/projectupdation"},
-        
-      ],
-    },
-    {
-      name: "Payment",
-      icon: "currency_rupee",
-      link:"/vendorpayment"
+      icon: "speed",
+      link:"/projectupdation"
       
     },
     {
-      name: "Invoice",
-      icon: "article",
-      link:"/invoice"
-      
-    },
-    {
-      name: "Demand",
-      icon: "groups",
-      link:"/demand"
-      
-    },
-    {
-      name: "Issue",
-      icon: "report",
-      link:"/issue"
-      
-    },
-    {
-      name: "Attendance",
-      icon: "check_circle",
-      link:"/attendance"
-      
-    },
-    {
-      name: "Circular",
-      icon: "message",
-      link:"/circular"
-      
-    },
-    {
-      name: "Format",
-      icon: "bookmark",
-      link:"/format"
-      
-    },
-    {
-      name: "Report",
-      icon: "save",
+      name: "Reports",
+      icon: "speed",
       link:"/report"
       
-    },
+    }
   
-    {
-      name: "User Profile",
-      icon: "person",
-      subNavs: [
-        {name: "Users", link: "/users"},
-        {name: "Log Out", link: "/logout"},
-      ],
-    },
+
   ];
   const [selectedNavItem, setSelectedNavItem] = useState(0); // Set to 0 initially
 
