@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tufidcoULB/static/css/main.73d55ac8.css",
-    "main.js": "/tufidcoULB/static/js/main.a3cf535c.js",
+    "main.js": "/tufidcoULB/static/js/main.6032d07b.js",
     "static/js/787.625357ab.chunk.js": "/tufidcoULB/static/js/787.625357ab.chunk.js",
     "static/media/tn-l.png": "/tufidcoULB/static/media/tn-l.0f47287e22100be4e0c9.png",
     "static/media/revenueIcon.svg": "/tufidcoULB/static/media/revenueIcon.6c4f7119db80f3e2418d3b65ddab1b4f.svg",
@@ -18,11 +18,11 @@
     "index.html": "/tufidcoULB/index.html",
     "static/media/search.svg": "/tufidcoULB/static/media/search.063cb8f0db78e84763a7b4c2b4816000.svg",
     "main.73d55ac8.css.map": "/tufidcoULB/static/css/main.73d55ac8.css.map",
-    "main.a3cf535c.js.map": "/tufidcoULB/static/js/main.a3cf535c.js.map",
+    "main.6032d07b.js.map": "/tufidcoULB/static/js/main.6032d07b.js.map",
     "787.625357ab.chunk.js.map": "/tufidcoULB/static/js/787.625357ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73d55ac8.css",
-    "static/js/main.a3cf535c.js"
+    "static/js/main.6032d07b.js"
   ]
 }
